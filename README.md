@@ -35,3 +35,42 @@ Your panel data should have the following structure:
 ```bash
 git clone https://github.com/chikaradini/datapanelchikara.git
 cd datapanelchikara
+
+pip install -r requirements.txt
+
+from panel_data_analysis import main
+
+# Run analysis
+results = main(
+    excel_file="your_data.xlsx",
+    sheet_name=0,
+    city_col='City',
+    year_col='Year',
+    dependent_var='y',
+    independent_vars=['local inv', 'inter inv', 'laborforce', 'edu']
+)
+python panel_data_analysis.py
+
+if __name__ == "__main__":
+    excel_file = "Production in East Java"  # Change to your actual file path
+
+If p-value < 0.05 (Significant):
+  → Use FIXED EFFECTS model
+  → City-specific effects are correlated with regressors
+  → Within-variation is important
+
+If p-value >= 0.05 (Not significant):
+  → Use RANDOM EFFECTS model
+  → City-specific effects are uncorrelated with regressors
+  → Between-variation is important
+
+local inv     0.45   (Elasticity of local investment)
+inter inv     0.35   (Elasticity of international investment)
+laborforce     0.15   (Elasticity of laborforce)
+edu   0.08   (Elasticity of Education)
+
+datapanelchikara/
+├── panel_data_analysis.py    # Main analysis script
+├── requirements.txt          # Python dependencies
+├── README.md                 # This file
+└── your_data.xlsx           # Your panel data (add your file here)
