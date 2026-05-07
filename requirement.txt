@@ -1,1 +1,1 @@
-
+linearmodels, statsmodels, pandas, numpy, matplotlib, seaborn, scipy, openpyxl
