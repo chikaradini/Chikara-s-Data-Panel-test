@@ -14,7 +14,7 @@ This project analyzes production functions across multiple cities over time (ann
 
 Your panel data should have the following structure:
 
-| City | Year | ln_Production | k | l | w | edu |
+| City | Year | Y | local inv | inter inv | laborforce | edu |
 |------|------|---------------|---|---|---|-----|
 | City1 | 2015 | 10.5 | 8.2 | 7.5 | 6.3 | 3.8 |
 | City1 | 2016 | 10.6 | 8.3 | 7.6 | 6.4 | 3.9 |
