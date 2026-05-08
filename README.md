@@ -10,16 +10,6 @@ This project analyzes production functions across multiple cities over time (ann
 - **Random Effects (RE)** - Assumes city effects are uncorrelated with regressors
 - **Hausman Test** - Tests whether FE or RE is more appropriate
 
-## Data Structure
-
-Your panel data should have the following structure:
-
-| City | Year | Y | local inv | inter inv | laborforce | edu |
-|------|------|---------------|---|---|---|-----|
-| City1 | 2015 | 10.5 | 8.2 | 7.5 | 6.3 | 3.8 |
-| City1 | 2016 | 10.6 | 8.3 | 7.6 | 6.4 | 3.9 |
-| ... | ... | ... | ... | ... | ... | ... |
-
 **Variables:**
 - `City`: City identifier (panel/entity)
 - `Year`: Time period (annual)
