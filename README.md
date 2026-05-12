@@ -392,7 +392,17 @@ This project is open source and available under the MIT License.
 
 ## Citation
 
-If you use this analysis, please cite:
+- **Bhattacharya, M., Narayan, P. K., Popp, S., & Rath, B. N. (2011). The productivity-wage and productivity-employment nexus: A panel data analysis of Indian manufacturing. Empirical Economics, 40(2), 285–303.
+- **Bondoyudho, G., & Ahmad, A. A. (2022). Determinan Produksi Industri Manufaktur Di Indonesia Tahun 2016–2021 (Pendekatan Regresi Panel Data). Jurnal Ekonomika Dan Bisnis, 9(2), 183–194.
+- **Salim, M. (2019). Pengaruh Investasi Dan Tenaga Kerja Terhadap PDRB Provinsi Papua. Jurnal Pembangunan Ekonomi Dan Keuangan Daerah, 16(4), 45–55. 
+- **Tran, H. T. T., & Hoang, H. T. (2019). An investigation into the impacts of fdi, domestic investment capital, human resources, and trained workers on economic growth in vietnam. In Studies in Computational Intelligence (Vol. 809). Springer International Publishing.
+- **Badan Pusat Statistik (BPS). 2018. Provinsi Jawa Timur dalam Angka 2018, BPS Jawa Timur, Surabaya
+- **Badan Pusat Statistik (BPS). 2019. Provinsi Jawa Timur dalam Angka 2019, BPS Jawa Timur, Surabaya
+- **Badan Pusat Statistik (BPS). 2020. Provinsi Jawa Timur dalam Angka 2020, BPS Jawa Timur, Surabaya
+- **Badan Pusat Statistik (BPS). 2021. Provinsi Jawa Timur dalam Angka 2021, BPS Jawa Timur, Surabaya
+- **Badan Pusat Statistik (BPS). 2022. Provinsi Jawa Timur dalam Angka 2022, BPS Jawa Timur, Surabaya
+- **Badan Pusat Statistik (BPS). 2023. Provinsi Jawa Timur dalam Angka 2023, BPS Jawa Timur, Surabaya
+
 
 ```
 Chikara. (2026). Panel Data Analysis: Production Function in East Java.
